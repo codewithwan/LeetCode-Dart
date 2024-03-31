@@ -18,6 +18,13 @@ class Solution {
   }
 }
 
+void main() {
+  Solution solution = Solution();
+  List<int> digits1 = [1, 2, 3];
+  List<int> result1 = solution.plusOne(digits1);
+  print("Result for digits1: $result1");
+}
+
 // 1.	Kelas Solution memiliki satu metode bernama plusOne yang digunakan untuk menambahkan 1 
 //    pada sebuah bilangan yang direpresentasikan dalam bentuk array.
 // 2.	Dalam metode plusOne, pertama-tama, kita mendapatkan panjang array digits dan menyimpan-

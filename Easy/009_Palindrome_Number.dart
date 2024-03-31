@@ -14,6 +14,13 @@ class Solution {
   }
 }
 
+void main() {
+    Solution solution = Solution();
+    int number1 = 12321;
+    bool result1 = solution.isPalindrome(number1);
+    print("Is $number1 palindrome? $result1");
+  }
+
 // 1.	Kelas Solution memiliki satu metode bernama isPalindrome yang digunakan untuk memeriksa apakah
 //    suatu bilangan merupakan palindrome atau tidak.
 // 2.	Dalam metode isPalindrome, pertama-tama dilakukan pengecekan apakah bilangan x merupakan bilangan
